@@ -8,6 +8,7 @@
 (use sxml.ssax)
 
 (add-load-path "./module")
+(add-load-path "../module")
 (add-load-path "~/public_html/module")
 (use www.cgi)
 (use text.html-lite)
